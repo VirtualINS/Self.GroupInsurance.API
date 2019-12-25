@@ -5,62 +5,61 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
-using Self.GroupInsurance.API.Model;
 using Newtonsoft.Json;
+using Self.GroupInsurance.API.Model;
 
 namespace Self.GroupInsurance.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class EmployeeController : ControllerBase
+    public class StateController : ControllerBase
     {
         private readonly IOptions<AppConfig> config;
 
-        public EmployeeController(IOptions<AppConfig> config)
+        public StateController(IOptions<AppConfig> config)
         {
             this.config = config;
-
         }
 
-        // GET: api/Employee
-        [HttpGet("GetEmployees")]
+        // GET: api/State
+        [HttpGet("GetStates")]
         public string Get()
         {
             CloudTableManager ctm = new CloudTableManager(this.config.Value.StorageConnectionString);
-            var employees = ctm.GetEmployees();
-            if (employees != null)
+            var states = ctm.GetStates();
+            if (states != null)
             {
-                List<Employee> emps = employees.Result;
-                return JsonConvert.SerializeObject(emps);
+                List<State> sts = states.Result;
+                return JsonConvert.SerializeObject(sts);
             }
             return string.Empty;
-         }
+        }
 
-        // GET: api/Employee/5
-        [HttpGet("{id}", Name = "GetEmployee")]
-        public string Get(string id)
+        // GET: api/State/5
+        [HttpGet("{id}", Name = "GetState")]
+        public string GetState(int id)
         {
             return "value";
         }
 
-        // POST: api/Employee
-        [HttpPost("AddEmployee")]
-        public string Post([FromBody] Employee value)
+        // POST: api/State
+        [HttpPost("AddState")]
+        public string Post([FromBody] State value)
         {
             CloudTableManager ctm = new CloudTableManager(this.config.Value.StorageConnectionString);
-            string ID = ctm.AddEmployee(value);
+            string ID = ctm.AddState(value);
             return ID;
         }
 
-        // PUT: api/Employee/5
+        // PUT: api/State/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public void UpdateState(int id, [FromBody] string value)
         {
         }
 
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public void DeleteState(int id)
         {
         }
     }

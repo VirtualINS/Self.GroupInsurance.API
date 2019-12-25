@@ -12,3 +12,17 @@ C:\Self\AZ203\GroupInsurance\Codebase\Self.GroupInsurance.API\Self.GroupInsuranc
 C:\Self\AZ203\GroupInsurance\Codebase\Self.GroupInsurance.API\Self.GroupInsurance.API\obj\Debug\netcoreapp2.2\Self.GroupInsurance.API.RazorTargetAssemblyInfo.cache
 C:\Self\AZ203\GroupInsurance\Codebase\Self.GroupInsurance.API\Self.GroupInsurance.API\obj\Debug\netcoreapp2.2\Self.GroupInsurance.API.dll
 C:\Self\AZ203\GroupInsurance\Codebase\Self.GroupInsurance.API\Self.GroupInsurance.API\obj\Debug\netcoreapp2.2\Self.GroupInsurance.API.pdb
+C:\Self\AZ203\VirtualINS\Self.GroupInsurance.API\Self.GroupInsurance.API\bin\Debug\netcoreapp2.2\Self.GroupInsurance.API.deps.json
+C:\Self\AZ203\VirtualINS\Self.GroupInsurance.API\Self.GroupInsurance.API\bin\Debug\netcoreapp2.2\Self.GroupInsurance.API.runtimeconfig.json
+C:\Self\AZ203\VirtualINS\Self.GroupInsurance.API\Self.GroupInsurance.API\bin\Debug\netcoreapp2.2\Self.GroupInsurance.API.runtimeconfig.dev.json
+C:\Self\AZ203\VirtualINS\Self.GroupInsurance.API\Self.GroupInsurance.API\bin\Debug\netcoreapp2.2\Self.GroupInsurance.API.dll
+C:\Self\AZ203\VirtualINS\Self.GroupInsurance.API\Self.GroupInsurance.API\bin\Debug\netcoreapp2.2\Self.GroupInsurance.API.pdb
+C:\Self\AZ203\VirtualINS\Self.GroupInsurance.API\Self.GroupInsurance.API\obj\Debug\netcoreapp2.2\Self.GroupInsurance.API.csprojAssemblyReference.cache
+C:\Self\AZ203\VirtualINS\Self.GroupInsurance.API\Self.GroupInsurance.API\obj\Debug\netcoreapp2.2\Self.GroupInsurance.API.csproj.CoreCompileInputs.cache
+C:\Self\AZ203\VirtualINS\Self.GroupInsurance.API\Self.GroupInsurance.API\obj\Debug\netcoreapp2.2\Self.GroupInsurance.API.RazorAssemblyInfo.cache
+C:\Self\AZ203\VirtualINS\Self.GroupInsurance.API\Self.GroupInsurance.API\obj\Debug\netcoreapp2.2\Self.GroupInsurance.API.RazorAssemblyInfo.cs
+C:\Self\AZ203\VirtualINS\Self.GroupInsurance.API\Self.GroupInsurance.API\obj\Debug\netcoreapp2.2\Self.GroupInsurance.API.AssemblyInfoInputs.cache
+C:\Self\AZ203\VirtualINS\Self.GroupInsurance.API\Self.GroupInsurance.API\obj\Debug\netcoreapp2.2\Self.GroupInsurance.API.AssemblyInfo.cs
+C:\Self\AZ203\VirtualINS\Self.GroupInsurance.API\Self.GroupInsurance.API\obj\Debug\netcoreapp2.2\Self.GroupInsurance.API.RazorTargetAssemblyInfo.cache
+C:\Self\AZ203\VirtualINS\Self.GroupInsurance.API\Self.GroupInsurance.API\obj\Debug\netcoreapp2.2\Self.GroupInsurance.API.dll
+C:\Self\AZ203\VirtualINS\Self.GroupInsurance.API\Self.GroupInsurance.API\obj\Debug\netcoreapp2.2\Self.GroupInsurance.API.pdb
