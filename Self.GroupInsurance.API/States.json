@@ -1,0 +1,19 @@
+{
+  "States": [
+    {
+      "ID": "1",
+      "Name": "Ontario",
+      "Country": "Canada"
+    },
+    {
+      "ID": "2",
+      "Name": "Qubec",
+      "Country": "Canada"
+    },
+    {
+      "ID": "3",
+      "Name": "Montreal",
+      "Country": "Canada"
+    }
+  ]
+}
